@@ -1,5 +1,6 @@
 ##My Local Working Directory is
 ##C:\Users\Octabio\Dropbox\Especializacion Data Science\Exploratory Analysis\Project1
+##setwd("C:\\Users\\Octabio\\Dropbox\\Especializacion Data Science\\Exploratory Analysis\\Project1")
 
 fullfile <- read.csv("./Data/household_power_consumption.txt", header=T, sep=';', na.strings="?", nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
 fullfile$Date <- as.Date(fullfile$Date, format="%d/%m/%Y")
